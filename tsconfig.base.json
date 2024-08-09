@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@adl/feat-a": ["feat-a/src/index.ts"]
+      "@adl/feat-a": ["libs/feat-a/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
