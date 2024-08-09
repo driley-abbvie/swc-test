@@ -1,0 +1,19 @@
+{
+  "name": "feat-a",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "feat-a/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:swc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/feat-a",
+        "main": "feat-a/src/index.ts",
+        "tsConfig": "feat-a/tsconfig.lib.json",
+        "assets": ["feat-a/*.md"]
+      }
+    }
+  }
+}
